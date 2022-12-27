@@ -1,0 +1,362 @@
+ 
+.logo
+{
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+
+main img
+{
+
+    padding: 20px;
+    position: relative;
+    
+}
+
+h1
+{
+    
+    position: absolute;
+    top:27%;
+    left:30px;
+    
+}
+.paragrafo-h1
+{
+    margin-top: 2% ;
+    padding: 5px;
+    font-family: monospace;
+    margin-left: 20px;
+    
+}
+
+.find
+{
+    
+    max-width: 100%;
+    margin: auto;
+
+}
+.mensagem-encontrada
+{
+    
+    position: relative;
+    top:-260px;
+    float:right;
+    margin:60px;
+    background: #cecece;
+    border: none;
+    border-radius: 9px;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    text-align: start;
+  
+}
+
+.outputMsg
+{
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+}
+  
+h3, p
+{
+    margin-top: 100px;
+}
+
+.form
+{
+    display: block;
+    width: 300px;
+    margin-left: 30%;
+}
+.form input 
+{
+    
+    position: relative;
+    top: 170px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid purple;
+    font-size: 30x;
+    padding: 10px 0;
+    margin-left: -16px;
+    display: block;
+    width: 130%;
+    outline:none;
+   
+}
+
+.form label
+{
+   
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    color:darkblue;
+    margin-left: -16px;
+   
+    
+}
+ 
+.button-cripto
+{
+    position: relative;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 29%;
+    margin-top: 17%;
+    border: none;
+    border-radius: 16px;
+    background-color: purple;
+    color:white;
+    width: 22%;
+    height: 40px;
+    
+}
+
+.button-descripto
+{
+
+    font-size: 16px;
+    font-family:sans-serif;
+    width: 22%;
+    height: 40px;
+    background-color: gold;
+    color:darkblue;
+    border: none;
+    border-radius: 16px;
+    display: block;
+    margin-left: 29%;
+    margin-top:4%   
+ 
+}
+span
+{
+    position: relative;
+    display: grid;
+    align-self: center;
+    position: absolute;
+    right: 54%;
+    bottom:15%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+span::before
+{
+    content: "⚠️";
+    position: absolute;
+    left: -28px;
+    top: -5px;
+    bottom: 10px;
+    right: 10px;
+    margin-right: 5px;
+    
+}
+
+
+footer
+{
+    display: grid;
+    margin-top: 250px;
+    font-size: 12px;
+    color:gray;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+    
+.button-cripto:hover
+{
+    cursor: pointer;
+    color:gold;
+}
+
+.button-descripto:hover
+{
+    cursor: pointer;
+    color:white;
+}
+
+
+@media (max-width: 1000px)
+{
+    .conteudo
+    {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+
+    }
+    .logo
+    {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    
+    
+    .find
+    {
+    
+        max-width: 100%;
+        margin: auto;
+
+    }
+
+    .mensagem-encontrada
+    {
+    
+        position: relative;
+        top:430px;
+        left: -50px;
+        float:right;
+        margin:140px;
+        background: #cecece;
+        border: none;
+        border-radius: 9px;
+        padding: 20px;
+        width: 150px;
+        height: 250px;
+        text-align: start;
+  
+    }
+    
+
+    .outputMsg
+{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    right: 30px;
+    border: none;
+    width: 80%;
+}
+    .button-cripto
+{
+    position: relative;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: block;
+    margin-left: 20%;
+    margin-top: -28%;
+    border: none;
+    border-radius: 16px;
+    background-color: purple;
+    color:white;
+    width: 35%;
+    height: 35px;
+    
+}
+
+.button-descripto
+{
+
+    padding: 5px;
+    font-size: 14px;
+    font-family:sans-serif;
+    width: 35%;
+    height: 35px;
+    background-color: gold;
+    color:darkblue;
+    border: none;
+    border-radius: 16px;
+    display: block;
+    margin-left: 20%;
+    margin-top:8%   
+ 
+}
+.form label
+{
+   
+    position: relative;
+    top: -250px;
+    font-size: 20px;
+    color:darkblue;
+    margin-left: 150px;
+   
+    
+}
+
+.form input 
+{
+    
+    position: relative;
+    top: -240px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid purple;
+    font-size: 30x;
+    padding: 10px 0;
+    margin-left: 70px;
+    display: block;
+    width: 110%;
+    outline:none;
+   
+}
+
+span
+{
+    
+    display: grid;
+    align-self: center;
+    position: absolute;
+    right: 22%;
+    bottom:36%;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+span::before
+{
+    content: "⚠️";
+    position: absolute;
+    left: -20px;    
+}
+
+h1
+{
+    
+    position: absolute;
+    top:15%;
+    left:30px;
+    font-size: 16px;
+    color:purple;
+    
+}
+.paragrafo-h1
+{
+    margin-top: 30% ;
+    padding: 5px;
+    font-family: monospace;
+    margin-left: 15px;
+    font-size: 12px;
+    text-align:start;
+    
+}
+
+footer
+{
+        display: grid;
+        grid-column: 2;
+        font-size: 8px;
+        width: 70%;
+        padding: 3px 3px;
+        margin-bottom: 5px;   
+        background-color: #f3f3f3;
+        text-align: center;
+
+   
+}
+}
+
+
+        
+
+        
